@@ -5,7 +5,6 @@ const findOdnolybInGraph = (graph) => {
     const friendName = queue[i];
 
     if (graph[friendName] && graph[friendName].length === 1) {
-      console.log('i', i)
       return friendName;
     }
 
